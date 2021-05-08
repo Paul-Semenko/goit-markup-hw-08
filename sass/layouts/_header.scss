@@ -1,0 +1,11 @@
+.header {
+    overflow: hidden;
+    position: relative;
+    border-bottom: var(--border-color)1px solid;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

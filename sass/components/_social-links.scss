@@ -1,0 +1,31 @@
+.social-links {
+    display: block;
+    margin-right: 100px;
+    &__title {
+        display: block;
+        margin-bottom: 20px;
+        color: var(--main-background);
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    @media screen and(min-width: 320px),
+    (min-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-right: 0;
+    }
+    @media screen and(min-width:768px) {
+        display: inline-flex;
+        justify-content: center;
+        margin-bottom: 0;
+        margin-right: auto;
+    }
+    @media screen and(min-width:1200px) {
+        display: block;
+        margin-right: 100px;
+    }
+}

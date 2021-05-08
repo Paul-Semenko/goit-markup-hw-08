@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: var(--main-text);
+    background-color: var(--main-background);
+    font-family: var(--main-font);
+    outline: 2px solid red;
+}
+
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+    @media screen and (max-width: 320px) {
+        max-width: 100%;
+    }
+    @media screen and(min-width:768px) {
+        width: 100%;
+    }
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.priorities__text,
+.priorities__title,
+.services__title,
+.services__text,
+.team-section__title,
+.team-member,
+.position {
+    letter-spacing: 0.03em;
+}
+
+.site-nav,
+.contacts,
+.btn-section,
+.portfolio,
+.footer-contacts,
+.priorities__items,
+.services__row,
+.team-section__list,
+.list {
+    list-style: none;
+}
+
+.footer-contacts__link,
+.footer-address__location,
+.box__text,
+.btn-section__buttons,
+.header__logo {
+    letter-spacing: 0.03em;
+}
+
+.site-nav .menu__link,
+.contacts__link,
+.footer-address__location,
+.footer-contacts__link {
+    font-size: 14px;
+}
+
+.header__logo,
+.social-net__links,
+.mobile-nav__link,
+.site-nav .menu__link,
+.contacts__link,
+.mobile-contacts__ref {
+    text-decoration: none;
+}
+
+.footer-address__location,
+.footer-contacts__link {
+    line-height: 1.72;
+}
+
+.box__title,
+.section-intro__title,
+.section-intro__button {
+    letter-spacing: 0.06em;
+}
