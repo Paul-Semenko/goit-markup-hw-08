@@ -1,6 +1,6 @@
 .social-icons {
     display: flex;
-    @media screen and(max-width: 480px) {
+    @media screen and(max-width: 480px), (max-width: 767px) {
         justify-content: center;
     }
     @media screen and(min-width:768px) {

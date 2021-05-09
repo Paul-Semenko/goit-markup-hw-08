@@ -27,6 +27,12 @@
             opacity: 1;
             transform: translatey(0);
         }
+        @media screen and (min-width:768px) {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: stretch;
+        }
     }
     
     .portfolio__link .box {
@@ -50,13 +56,13 @@
             font-weight: bold;
             font-size: 18px;
             line-height: 2;
-            @media screen and(min-width: 768px) {
-                letter-spacing: 0.03em;
-            }
         }
         .box__title--repositioning {
             margin-top: 0;
             margin-bottom: 4px;
+        }
+        @media screen and(min-width: 768px) {
+            flex-grow: 1;
         }
     }
     
