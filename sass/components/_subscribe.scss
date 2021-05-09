@@ -48,7 +48,8 @@
                         margin-bottom: 0;
                     }
                 }
-                .form-sign-up:focus-within>.form-sign-up__element {
-                    color: var(--main-background);
-                }
+            }
+            
+            .form-sign-up:focus-within>.form-sign-up__element {
+                color: var(--main-background);
             }
